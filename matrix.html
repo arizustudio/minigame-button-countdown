@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Button Countdown Minigames | Arizu Studio</title>
+    <meta name="title" content="Button Countdown Minigames | Arizu Studio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="title" content="Button Countdown Minigames | Arizu Studio">
+    <meta name="description" content="Test your reflexes in this futuristic cyberpunk mini-game! Click the countdown buttons in the correct order before they disappear. How high can you score?">
+    <meta name="author" content="Arizu Studio">
+    <meta name="keywords" content="button game, countdown game, cyberpunk minigame, reaction game, html5 game, Arizu Studio, futuristic game, reflex test, arcade click game">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0ff">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://arizu.id/minigames/button-countdown">
+    <meta property="og:title" content="Button Countdown Minigames | Arizu Studio">
+    <meta property="og:description" content="Test your reflexes in this futuristic cyberpunk mini-game! Click the countdown buttons in the correct order before they disappear.">
+    <meta property="og:image" content="http://arizu.id/minigames/button-countdown/preview.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="http://arizu.id/minigames/button-countdown">
+    <meta name="twitter:title" content="Button Countdown Minigames | Arizu Studio">
+    <meta name="twitter:description" content="Test your reflexes in this futuristic cyberpunk mini-game! Click the countdown buttons in the correct order before they disappear.">
+    <meta name="twitter:image" content="http://arizu.id/minigames/button-countdown/preview.jpg">
+    <link rel="stylesheet" href="matrix.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  </head>
+  <body>
+    <div id="custom-cursor"></div>
+    <canvas id="line-canvas"></canvas>
+    <div id="game-area"></div>
+    <div id="scoreboard">Skor: 0 | ❤️❤️❤️</div>
+    <div id="start-popup" class="popup">
+      <div>
+        <h1>Are you ready?</h1>
+        <button id="start-button">Start Game</button>
+      </div>
+    </div>
+    <div id="game-over" class="popup" style="display:none;">
+      <div>
+        <h1>Game Over</h1>
+        <p id="final-score">Your Score : 0</p>
+        <button onclick="restartGame()">Play Again</button>
+      </div>
+    </div>
+    <script src="matrix.js"></script>
+  </body>
+</html>
